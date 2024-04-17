@@ -4,10 +4,10 @@ MAINTAINER Shinya Suzuki <sshinya@bio.titech.ac.jp>
 LABEL DESCRIPTION "Container for optimization with Pyomo and some of solvers"
 
 ENV TOOL_DIR /opt
-ENV BONMIN_VERSION 1.8.7
-ENV COUENNE_VERSION 0.5.7
-ENV IPOPT_VERSION 3.12.12
-ENV SCIP_VERSION 6.0.1
+ENV BONMIN_VERSION 1.8.8
+ENV COUENNE_VERSION 0.5.8
+ENV IPOPT_VERSION 3.14.4
+ENV SCIP_VERSION 9.0.0
 ENV LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:/lib:/usr/lib:/usr/local/lib
 
 RUN apt-get update && \
